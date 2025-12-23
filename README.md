@@ -1,13 +1,13 @@
 # ETL-Pipeline.-Extract-Transform-Load-with-Python.
 This lab implements an end to end ETL pipeline using Python. It extracts data from multiple file formats, transforms the data, and loads the cleaned output into a database for analysis.
 
-ETL Pipeline. Extract, Transform, Load with Python
+## ETL Pipeline. Extract, Transform, Load with Python
 
 This lab implements an end to end ETL pipeline using Python. The pipeline extracts data from multiple file formats, transforms the data into standardized units, and loads the final dataset into a CSV file for further analysis.
 
 This project demonstrates core data engineering skills used in data science workflows.
 
-Project Overview
+##Project Overview
 
 The project reads data from CSV, JSON, and XML files, combines them into a single dataset, applies unit conversions, and stores the cleaned output in a target file. Each stage of the ETL process is logged with timestamps.
 
@@ -15,10 +15,10 @@ Extract Phase
 
 The extraction stage performs the following tasks.
 
-Reads CSV files using pandas.
-Reads JSON files using pandas.
-Parses XML files using ElementTree.
-Combines all extracted data into a single DataFrame.
+ - Reads CSV files using pandas.
+ - Reads JSON files using pandas.
+ - Parses XML files using ElementTree.
+ - Combines all extracted data into a single DataFrame.
 
 Transform Phase
 
